@@ -4,8 +4,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  plugins: ["@eslint/js"],
-  extends: ["@eslint/js/recommended"],
+  extends: ["eslint:recommended"],
   rules: {
     "no-unused-vars": "warn",
     "prefer-const": "error",
